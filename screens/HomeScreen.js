@@ -8,7 +8,7 @@ const HomeScreen = ({ navigation, route }) => {
     <ScrollView contentContainerStyle={styles.scrollContainer}>
       <View style={styles.container}>
         <Image
-          source={{ uri: 'https://reactnative.dev/img/tiny_logo.png' }} // logo/banner
+          source={{ uri: 'https://cdn-icons-png.flaticon.com/512/149/149071.png' }} // logo/banner
           style={styles.logo}
         />
         <Text style={styles.welcome}>Welcome, {name || "Guest"}!</Text>
